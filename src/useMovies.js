@@ -6,8 +6,8 @@ export function useMovies(query, handleCloseMovie) {
   const [movies, setMovies] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState("");
-  console.log("API_KEY: ", API_KEY);
-  console.log("API_URL: ", API_URL);
+  // console.log("API_KEY: ", API_KEY);
+  // console.log("API_URL: ", API_URL);
   useEffect(
     function () {
       //   callback?.();
